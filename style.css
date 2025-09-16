@@ -1,0 +1,39 @@
+.body{
+    font-family: 'Poppins';
+}
+
+#icon{
+    background-color: #82aeff; 
+    color: #ffffff;
+    width: 45px; 
+    height: 45px;
+
+}
+
+.rounded-circle{
+    background-color: #c3e5fd; 
+    color: #0d6efd;
+}
+.btn-custom2{
+    background: linear-gradient(90deg, #2f51e7 0%, #613aeb 100%);
+    color: white;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.btn-custom2:hover {
+    color: white;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.btn-custom1{
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.btn-custom1:hover {
+    background-color: rgb(185, 185, 185);
+}

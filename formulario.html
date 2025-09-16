@@ -6,229 +6,242 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario| ♡ </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet">
-
+  
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg" STYLE=" background-color: rgb(227, 233, 255);">
 
-  <div class="container mt-5">
-    <div class="card shadow rounded-4">
-      <div class="card-header text-white rounded-top-4"
+  <div class="container mt-5" style="max-width: 50%;">
+    <div class="card rounded-4">
+      <div class="card-header text-white rounded-top-4 d-flex align-items-center"
         style="background: linear-gradient(90deg, #297eff 0%, #3e12ff 100%);">
-        <h4 class="mb-0">Registro de Vehículos</h4>
-        <small>Sistema Nacional de Registro Vehicular - Chile</small>
+
+        <div class="rounded-circle  d-flex align-items-center justify-content-center me-3 " id="icon">
+          <i class="bi bi-credit-card-fill"></i>
+        </div>
+        <div>
+          <h1 class="mb-0"><strong>Registro de Vehículos</strong></h1>
+          <small>Sistema Nacional de Registro Vehicular - Chile</small>
+        </div>
       </div>
 
       <div class="card-body p-4">
 
         <div class="bg-secondary bg-opacity-10 rounded-4 p-4 mb-4">
           <form>
-            <h5 class="mb-3"><span class="badge rounded-circle me-2" style="background-color: #c3e5fd; color: #0d6efd;">
-                1
-              </span>Datos Personales</h5>
-            <div class="row mb-3">
-              <div class="col-md-6">
-                <label for="rut" class="form-label">RUT *</label>
-                <input type="text" class="form-control" id="rut" placeholder="12.345.678-9">
-              </div>
-              <div class="col-md-6">
-                <label for="nombres" class="form-label">Nombres *</label>
-                <input type="text" class="form-control" id="nombres" placeholder="Juan Carlos">
-              </div>
-            </div>
+            
+        <h3 class="mb-3"><span class="badge rounded-circle me-2" >
+            1
+          </span>Datos Personales</h3>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="rut" class="form-label">RUT *</label>
+            <input type="text" class="form-control" id="rut" placeholder="12.345.678-9">
+          </div>
+          <div class="col-md-6">
+            <label for="nombres" class="form-label">Nombres *</label>
+            <input type="text" class="form-control" id="nombres" placeholder="Juan Carlos">
+          </div>
+        </div>
 
-            <div class="row mb-3">
-              <div class="col-md-6">
-                <label for="apellidoPaterno" class="form-label">Apellido Paterno *</label>
-                <input type="text" class="form-control" id="apellidoPaterno" placeholder="González">
-              </div>
-              <div class="col-md-6">
-                <label for="apellidoMaterno" class="form-label">Apellido Materno *</label>
-                <input type="text" class="form-control" id="apellidoMaterno" placeholder="Pérez">
-              </div>
-            </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="apellidoPaterno" class="form-label">Apellido Paterno *</label>
+            <input type="text" class="form-control" id="apellidoPaterno" placeholder="González">
+          </div>
+          <div class="col-md-6">
+            <label for="apellidoMaterno" class="form-label">Apellido Materno *</label>
+            <input type="text" class="form-control" id="apellidoMaterno" placeholder="Pérez">
+          </div>
+        </div>
 
-            <div class="row mb-3">
-              <div class="col-md-6">
-                <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento *</label>
-                <input type="date" class="form-control" id="fechaNacimiento">
-              </div>
-              <div class="col-md-6">
-                <label for="telefono" class="form-label">Teléfono *</label>
-                <input type="tel" class="form-control" id="telefono" placeholder="+56 9 1234 5678">
-              </div>
-            </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento *</label>
+            <input type="date" class="form-control" id="fechaNacimiento">
+          </div>
+          <div class="col-md-6">
+            <label for="telefono" class="form-label">Teléfono *</label>
+            <input type="tel" class="form-control" id="telefono" placeholder="+56 9 1234 5678">
+          </div>
+        </div>
 
-            <div class="mb-3">
-              <label for="email" class="form-label">Email *</label>
-              <input type="email" class="form-control" id="email" placeholder="juan.gonzalez@email.com">
-            </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email *</label>
+          <input type="email" class="form-control" id="email" placeholder="juan.gonzalez@email.com">
+        </div>
         </div>
         <div class="bg-secondary bg-opacity-10 rounded-4 p-4 mb-4">
-          <h5 class="mb-3"> <span class="badge rounded-circle me-2" style="background-color: #c3e5fd; color: #0d6efd;">
-              2
-            </span> Dirección</h5>
+          <h3 class="mb-3"> <span class="badge rounded-circle me-2">
+          2
+        </span> Dirección</h3>
 
           <div class="row mb-3">
-            <!-- Región -->
-            <div class="col-md-6">
-              <label for="region" class="form-label">Región *</label>
-              <select id="region" class="form-select">
-                <option selected disabled>Seleccionar región</option>
-                <option value="rm">Región Metropolitana</option>
-                <option value="valpo">Región Valparaíso</option>
-                <option value="biobio">Región del Biobío</option>
-                <option value="loslagos">Región de los lagos</option>
-                <option value="coquimbo">Región de coquimbo</option>
-              </select>
-            </div>
+        <!-- Región -->
+        <div class="col-md-6">
+          <label for="region" class="form-label">Región *</label>
+          <select id="region" class="form-select">
+            <option selected disabled>Seleccionar región</option>
+            <option value="rm">Región Metropolitana</option>
+            <option value="valpo">Región Valparaíso</option>
+            <option value="biobio">Región del Biobío</option>
+            <option value="loslagos">Región de los lagos</option>
+            <option value="coquimbo">Región de coquimbo</option>
+          </select>
+        </div>
 
-            <div class="col-md-6">
-              <label for="comuna" class="form-label">Comuna *</label>
-              <select id="comuna" class="form-select">
-                <option selected disabled>Seleccionar región</option>
-                <option value="santiago">Santiago</option>
-                <option value="providencia">Providencia</option>
-                <option value="lasCondes">Las condes</option>
-                <option value="maipu">Maipú</option>
-              </select>
-            </div>
+        <div class="col-md-6">
+          <label for="comuna" class="form-label">Comuna *</label>
+          <select id="comuna" class="form-select">
+            <option selected disabled>Seleccionar región</option>
+            <option value="santiago">Santiago</option>
+            <option value="providencia">Providencia</option>
+            <option value="lasCondes">Las condes</option>
+            <option value="maipu">Maipú</option>
+          </select>
+        </div>
           </div>
 
           <div class="mb-3">
-            <label for="Direcion" class="form-label">dirección *</label>
-            <input type="text" class="form-control" id="direccion" placeholder="Av. libertador Bernardo O'Higgins 1234">
+        <label for="Direcion" class="form-label">dirección *</label>
+        <input type="text" class="form-control" id="direccion" placeholder="Av. libertador Bernardo O'Higgins 1234">
           </div>
         </div>
 
 
         <div class="bg-secondary bg-opacity-10 rounded-4 p-4 mb-4">
-          <h5 class="mb-3"> <span class="badge rounded-circle me-2" style="background-color: #c3e5fd; color: #0d6efd;">
-              3
-            </span> Datos del Vehículo</h5>
+          <h3 class="mb-3"> <span class="badge rounded-circle me-2">
+          3
+        </span> Datos del Vehículo</h3>
 
           <div class="row mb-3">
-            <div class="col-md-6">
-              <label for="patente" class="form-label">patente *</label>
-              <input type="text" class="form-control" id="patente" placeholder="ABCD12">
-            </div>
+        <div class="col-md-6">
+          <label for="patente" class="form-label">patente *</label>
+          <input type="text" class="form-control" id="patente" placeholder="ABCD12">
+        </div>
 
-            <div class="col-md-6">
-              <label for="marca" class="form-label">Marca *</label>
-              <select id="marca" class="form-select">
-                <option selected disabled>Seleccionar marca</option>
-                <option value="toyota">Toyota</option>
-                <option value="chevrolet">Chevrolet</option>
-                <option value="nissan">Nissan</option>
-                <option value="hyundai">Hyundai</option>
-                <option value="kia">Kia</option>
-                <option value="ford">Ford</option>
-              </select>
-            </div>
+        <div class="col-md-6">
+          <label for="marca" class="form-label">Marca *</label>
+          <select id="marca" class="form-select">
+            <option selected disabled>Seleccionar marca</option>
+            <option value="toyota">Toyota</option>
+            <option value="chevrolet">Chevrolet</option>
+            <option value="nissan">Nissan</option>
+            <option value="hyundai">Hyundai</option>
+            <option value="kia">Kia</option>
+            <option value="ford">Ford</option>
+          </select>
+        </div>
 
 
           </div>
           <div class="row mb-3">
-            <div class="col-md-6">
-              <label for="modelo" class="form-label">modelo *</label>
-              <input type="text" class="form-control" id="modelo" placeholder="Corolla">
-            </div>
+        <div class="col-md-6">
+          <label for="modelo" class="form-label">modelo *</label>
+          <input type="text" class="form-control" id="modelo" placeholder="Corolla">
+        </div>
 
-            <div class="col-md-6">
-              <label for="anio" class="form-label">Año *</label>
-              <input type="number" id="anio" class="form-control" placeholder="2020" min="1990" max="2026" step="1">
-            </div>
+        <div class="col-md-6">
+          <label for="anio" class="form-label">Año *</label>
+          <input type="number" id="anio" class="form-control" placeholder="2020" min="1990" max="2026" step="1">
+        </div>
           </div>
           <div class="row mb-3">
-            <div class="col-md-6">
-              <label for="Tipo de Vehiculo" class="form-label">Tipo de Vehiculo *</label>
-              <select id="tipoVehiculo" class="form-select">
-                <option selected disabled>Seleccionar tipo</option>
-                <option value="toyota">Automóvil</option>
-                <option value="chevrolet">Camioneta</option>
-                <option value="nissan">Motocicleta</option>
-                <option value="hyundai">Camion</option>
-                <option value="kia">Bús</option>
-              </select>
+        <div class="col-md-6">
+          <label for="Tipo de Vehiculo" class="form-label">Tipo de Vehiculo *</label>
+          <select id="tipoVehiculo" class="form-select">
+            <option selected disabled>Seleccionar tipo</option>
+            <option value="toyota">Automóvil</option>
+            <option value="chevrolet">Camioneta</option>
+            <option value="nissan">Motocicleta</option>
+            <option value="hyundai">Camion</option>
+            <option value="kia">Bús</option>
+          </select>
 
-            </div>
-            <div class="col-md-6">
-              <label for="Combustible" class="form-label">Combustible *</label>
-              <select id="Combustible" class="form-select">
-                <option selected disabled>Seleccionar Combustible</option>
-                <option value="gasolina">Gasolina</option>
-                <option value="diesel">Diésel</option>
-                <option value="electrico">Eléctrico</option>
-                <option value="hibrido">Híbrido</option>
-                <option value="gas">Gas</option>
-              </select>
-            </div>
+        </div>
+        <div class="col-md-6">
+          <label for="Combustible" class="form-label">Combustible *</label>
+          <select id="Combustible" class="form-select">
+            <option selected disabled>Seleccionar Combustible</option>
+            <option value="gasolina">Gasolina</option>
+            <option value="diesel">Diésel</option>
+            <option value="electrico">Eléctrico</option>
+            <option value="hibrido">Híbrido</option>
+            <option value="gas">Gas</option>
+          </select>
+        </div>
           </div>
           <div class="mb-3">
-            <label for="numero de motor" class="form-label">Número de Motor *</label>
-            <input type="text" class="form-control" id="numeroMotor" placeholder="ABC123456789">
+        <label for="numero de motor" class="form-label">Número de Motor *</label>
+        <input type="text" class="form-control" id="numeroMotor" placeholder="ABC123456789">
           </div>
 
           <div class="mb-3">
-            <label for="numero de chasis" class="form-label">Número de Chasis *</label>
-            <input type="text" class="form-control" id="numeroChasis" placeholder="1HGBH41JXMN109186">
+        <label for="numero de chasis" class="form-label">Número de Chasis *</label>
+        <input type="text" class="form-control" id="numeroChasis" placeholder="1HGBH41JXMN109186">
           </div>
 
 
         </div>
         <div class="bg-secondary bg-opacity-10 rounded-4 p-4 mb-4">
-          <h5 class="mb-3">
-            <span class="badge rounded-circle me-2" style="background-color: #c3e5fd; color: #0d6efd;">
-              4
-            </span>
-            Documentos Requeridos
-          </h5>
+          <h3 class="mb-3">
+        <span class="badge rounded-circle me-2" >
+          4
+        </span>
+        Documentos Requeridos
+          </h3>
 
 
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="cedula" name="cedula">
-            <label class="form-check-label" for="cedula">Cédula de Identidad vigente</label>
+        <input type="checkbox" class="form-check-input" id="cedula" name="cedula">
+        <label class="form-check-label" for="cedula">Cédula de Identidad vigente</label>
           </div>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="padron" name="padron">
-            <label class="form-check-label" for="padron">Padrón del vehículo</label>
+        <input type="checkbox" class="form-check-input" id="padron" name="padron">
+        <label class="form-check-label" for="padron">Padrón del vehículo</label>
           </div>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="permiso" name="permiso">
-            <label class="form-check-label" for="permiso">Permiso de circulación anterior (si aplica)</label>
+        <input type="checkbox" class="form-check-input" id="permiso" name="permiso">
+        <label class="form-check-label" for="permiso">Permiso de circulación anterior (si aplica)</label>
           </div>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="seguro" name="seguro">
-            <label class="form-check-label" for="seguro">Certificado de seguro obligatorio SOAP</label>
+        <input type="checkbox" class="form-check-input" id="seguro" name="seguro">
+        <label class="form-check-label" for="seguro">Certificado de seguro obligatorio SOAP</label>
           </div>
         </div>
 
-        <div class="bg-warning bg-opacity-10 rounded-4 p-4 mb-4 border-color: dddd">
+        <div class="bg-warning bg-opacity-10 rounded-4 p-4 mb-4 border-color: dddd;" style="border: 1px solid #faec9d;">
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="terminos" name="terminos" required>
-            <label class="form-check-label" for="terminos">Acepto los términos y condiciones *</label>
-            <p class="small text-muted ">
-              Al marcar esta casilla, confirmo que toda la información proporcionada es veraz y acepto las condiciones
-              del registro vehicular según la normativa chilena vigente.
-            </p>
+        <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
+        <label class="form-check-label" for="terminos">Acepto los términos y condiciones *</label>
+        <p class="small text-muted ">
+          Al marcar esta casilla, confirmo que toda la información proporcionada es veraz y acepto las condiciones
+          del registro vehicular según la normativa chilena vigente.
+        </p>
           </div>
         </div>
 
-
-            <button type="reset" class="btn btn-clear btn-custom1 ">Limpiar Formulario</button>
-            <button type="submit" class="btn btn-register btn-custom2">Registrar Vehículo</button>
+        <div class="row mb-2 px-2">
+          <div class="col-6 pe-2">
+        <button type="reset" class="btn btn-clear btn-custom1 w-100 py-2">Limpiar Formulario</button>
           </div>
-          </form>
+          <div class="col-6 ps-2">
+        <button type="submit" class="btn btn-register btn-custom2 w-100 py-2">Registrar Vehículo</button>
+          </div>
         </div>
+        </form>
+      </div>
+      </div>
+      <div class="text-center" style="opacity: 0.7; font-size: 0.85rem;">
+        <small>© 2024 Sistema Nacional de Registro Vehicular - Gobierno de Chile</small>
       </div>
 
 
       <script src="script.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 </body>
 
